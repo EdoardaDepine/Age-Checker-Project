@@ -27,11 +27,11 @@ section {
 #form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 6px;
 }
 
 #gender {
-    align-self: auto;
+    margin-bottom: 20px;
 }
 
 
