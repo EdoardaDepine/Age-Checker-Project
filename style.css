@@ -15,21 +15,31 @@ header {
 section {
     background-color: white;
     border-radius: 10px;
-    padding: 15px;
+    padding: 40px;
     width: 500px;
-    text-align: center;
+    text-align: left;
     box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.133);
+    display: flex;
+    flex-direction: column;
+    gap: 20px
 }
 
-#message {
-    margin-bottom: 20px;
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-#image {
+#gender {
+    align-self: auto;
+}
+
+
+/* #image {
     width: 300px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.133);
-}
+} */
 
 footer {
     font-style: italic;
