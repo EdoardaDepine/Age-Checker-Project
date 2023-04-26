@@ -10,10 +10,9 @@ function checkAge() {
 
   verify();
 
-  function verify() {
-    let gender = "";
+  function verify(gender) {
     if (GenderCkeck[0].checked) {
-      let gender = "Mulher";
+      gender = "Mulher";
       if (userAge >= 0 && userAge <= 10) {
         image.setAttribute("src", "./images/menina-bebe.jpg");
       } else if (userAge < 30) {
@@ -24,7 +23,7 @@ function checkAge() {
         image.setAttribute("src", "./images/mulher-idosa.jpg");
       }
     } else if (GenderCkeck[1].checked) {
-      let gender = "Homem";
+      gender = "Homem";
       if (userAge >= 0 && userAge <= 10) {
         image.setAttribute("src", "./images/menino-bebe.jpg");
       } else if (userAge < 30) {
