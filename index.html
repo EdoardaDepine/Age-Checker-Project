@@ -16,17 +16,16 @@
         </header>
         <section>
             <form id="form">
-                <label>Ano de Nascimento: <input type="number" name="yearBirth" id="yearBirth"></label>
+                <label>Ano de Nascimento: <input type="number" name="yearBirth" id="yearBirth" required></label>
                 <div id="gender">
                     <p>Sexo:</p>
-                    </label>Feminino:<input type="radio" id="feminine"></label>
-                    <label>Masculino: <input type="radio" id="masculine"></label>
+                    </label>Feminino:<input type="radio" name="radioGender" id="feminine"></label>
+                    <label>Masculino: <input type="radio" name="radioGender" id="masculine"></label>
                 </div>
                 <input type="button" id="verifyButton" value="Verificar">
             </form>
 
-            <div>
-                DIV 2
+            <div id="result">
             </div>
         </section>
 
